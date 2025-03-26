@@ -1,0 +1,72 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.env
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Superset specific
+superset_config.py
+superset.db
+celerybeat-schedule
+*.db
+.coverage
+coverage.xml
+.pytest_cache/
+.python-version
+local_config.py
+
+# Compiled files
+*.pyc
+*.pyo
+*.pyd
+
+# Logs
+*.log
+logs/
+log/
+
+# Local development
+*.local
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Docker
+.docker/
+docker-compose.override.yml
+
+# Temporary files
+*.tmp
+*~
+.*.swp
+.*.swo
