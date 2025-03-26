@@ -34,7 +34,7 @@ env/
 .DS_Store
 
 # Superset specific
-superset_config.py
+# superset_config.py
 superset.db
 celerybeat-schedule
 *.db
