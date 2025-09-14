@@ -1,9 +1,57 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.2.1">
   <diagram name="Page-1" id="jtAC6lFoBL-SM3Ci1ez3">
-    <mxGraphModel>
+    <mxGraphModel dx="2349" dy="1092" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="JC9eyNlGjSADLmIgYA41-1" value="user login" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="80" width="550" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JC9eyNlGjSADLmIgYA41-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JC9eyNlGjSADLmIgYA41-2" target="JC9eyNlGjSADLmIgYA41-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JC9eyNlGjSADLmIgYA41-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="JC9eyNlGjSADLmIgYA41-2" target="JC9eyNlGjSADLmIgYA41-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JC9eyNlGjSADLmIgYA41-2" value="user? secretariat or normal" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="270" width="75" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JC9eyNlGjSADLmIgYA41-3" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="JC9eyNlGjSADLmIgYA41-1" target="JC9eyNlGjSADLmIgYA41-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="170" as="sourcePoint" />
+            <mxPoint x="390" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JC9eyNlGjSADLmIgYA41-6" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="550" width="510" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="JC9eyNlGjSADLmIgYA41-11" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Normal user&lt;/h1&gt;&lt;p&gt;account balance (wallets) -&amp;gt; track deposits, withdrawals, transfers&lt;/p&gt;&lt;p&gt;share balance&lt;/p&gt;&lt;p&gt;can request for loan&lt;/p&gt;&lt;p&gt;can edit next of kin data&lt;/p&gt;&lt;p&gt;raise message to the group (secretariat)&lt;/p&gt;&lt;p&gt;download documents&lt;/p&gt;&lt;p&gt;Send funds&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="JC9eyNlGjSADLmIgYA41-6">
+          <mxGeometry x="10" y="20" width="490" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="JC9eyNlGjSADLmIgYA41-12" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="600" y="190" width="350" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="JC9eyNlGjSADLmIgYA41-13" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Secretariat user&lt;/h1&gt;&lt;p&gt;Members management&lt;/p&gt;&lt;p&gt;Get chama reports&lt;/p&gt;&lt;p&gt;check investment reports&lt;/p&gt;&lt;p&gt;Approve loan application&lt;/p&gt;&lt;p&gt;Post notifications to the group&lt;/p&gt;&lt;p&gt;Set loan rules that applies to group i.e 5% for late payments&amp;nbsp;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="640" y="270" width="260" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="JC9eyNlGjSADLmIgYA41-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.003;entryY=0.344;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="JC9eyNlGjSADLmIgYA41-2" target="JC9eyNlGjSADLmIgYA41-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JC9eyNlGjSADLmIgYA41-15" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="209" width="270" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="JC9eyNlGjSADLmIgYA41-16" value="secretariat&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="430" y="273" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JC9eyNlGjSADLmIgYA41-17" value="normal user" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="325" y="428" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JC9eyNlGjSADLmIgYA41-19" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;System Admin&lt;/h1&gt;&lt;p&gt;Add chamas&lt;/p&gt;&lt;p&gt;add modules chama can access depend on packages they have subscribe to&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="273" width="230" height="177" as="geometry" />
+        </mxCell>
+        <mxCell id="JC9eyNlGjSADLmIgYA41-20" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="580" width="200" height="200" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
